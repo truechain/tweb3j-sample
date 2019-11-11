@@ -10,6 +10,12 @@ tweb3 for java 样例程序 (基于tweb3j 4.5.0)
 - [QuickStart](https://github.com/truechain/tweb3j-sample/blob/master/src/main/java/com/truechain/QuickStart.java) 
 快速开始:判断程序能否连接到truechain网络 rpc节点
 
+- [AddressUtils](https://github.com/truechain/tweb3j-sample/blob/master/src/main/java/com/truechain/account/AddressUtils.java) 
+私钥地址合法性校验
+
+- [TransactionClient](https://github.com/truechain/tweb3j-sample/blob/master/src/main/java/com/truechain/TransactionClient.java) 
+true转账相关接口
+
 - [TransactionClient](https://github.com/truechain/tweb3j-sample/blob/master/src/main/java/com/truechain/TransactionClient.java) 
 true转账相关接口
 
