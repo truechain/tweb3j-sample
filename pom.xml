@@ -27,6 +27,7 @@
 
 
     <dependencies>
+
         <dependency>
             <groupId>org.web3j</groupId>
             <artifactId>core</artifactId>

@@ -1,8 +1,6 @@
 package com.truechain;
 
-import org.web3j.protocol.Web3j;
 import org.web3j.protocol.core.methods.response.Web3ClientVersion;
-import org.web3j.protocol.http.HttpService;
 
 import java.io.IOException;
 
@@ -11,7 +9,6 @@ import java.io.IOException;
  * 快速开始
  */
 public class QuickStart {
-
 
 	public static void main(String[] args) {
 		Web3ClientVersion web3ClientVersion = null;

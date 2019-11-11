@@ -26,12 +26,12 @@ import java.util.concurrent.ExecutionException;
  */
 public class TokenClient {
     public static void main(String[] args) throws  Exception{
-		System.out.println(getTokenBalance(Environment.fromAddress, Environment.contractAddress));
-        System.out.println(getTokenName(Environment.contractAddress));
-        System.out.println(getTokenDecimals(Environment.contractAddress));
-        System.out.println(getTokenSymbol(Environment.contractAddress));
-        System.out.println(getTokenTotalSupply(Environment.contractAddress));
-        System.out.println(getTokenBalance(Environment.fromAddress, Environment.contractAddress));
+//		System.out.println(getTokenBalance(Environment.fromAddress, Environment.contractAddress));
+//        System.out.println(getTokenName(Environment.contractAddress));
+//        System.out.println(getTokenDecimals(Environment.contractAddress));
+//        System.out.println(getTokenSymbol(Environment.contractAddress));
+//        System.out.println(getTokenTotalSupply(Environment.contractAddress));
+//        System.out.println(getTokenBalance(Environment.fromAddress, Environment.contractAddress));
 //		sendTokenTransaction(Environment.contractAddress, Environment.toAddress, Environment.fromPrivateKey);
 //		Thread.sleep(1000);
 //        System.out.println(getTokenBalance(Environment.fromAddress, Environment.contractAddress));
