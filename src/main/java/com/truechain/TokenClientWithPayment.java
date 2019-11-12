@@ -8,6 +8,8 @@ import org.web3j.abi.datatypes.Function;
 import org.web3j.abi.datatypes.Type;
 import org.web3j.abi.datatypes.generated.Uint256;
 import org.web3j.crypto.Credentials;
+import org.web3j.crypto.TrueRawTransaction;
+import org.web3j.crypto.TrueTransactionEncoder;
 import org.web3j.protocol.core.DefaultBlockParameterName;
 import org.web3j.protocol.core.methods.response.EthGetTransactionCount;
 import org.web3j.protocol.core.methods.response.EthSendTrueTransaction;
@@ -25,7 +27,7 @@ public class TokenClientWithPayment {
         System.out.println(TokenClient.getTokenBalance(Environment.fromAddress, Environment.contractAddress));
 
         sendTokenTransactionWithPayment(Environment.contractAddress, Environment.toAddress,
-                 Environment.fromPrivateKey,Environment.paymentPrivatekey);
+                Environment.fromPrivateKey, Environment.paymentPrivatekey);
     }
 
 
@@ -84,8 +86,6 @@ public class TokenClientWithPayment {
             e.printStackTrace();
         }
     }
-
-
 
 
 }
